@@ -1,2 +1,2 @@
 # DSA
-DSA Algorithms and DSA Question Answers
+DSA Algorithms and Question Answers
