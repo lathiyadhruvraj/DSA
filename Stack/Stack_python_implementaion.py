@@ -20,6 +20,9 @@ class Stack:
     def is_empty(self):
         return len(self.stack) == 0
 
+    def checkTop(self):
+        print(self.stack[-1])
+
     def __repr__(self):
         if self.stack is None:
             return 'Empty Stack'
@@ -30,4 +33,5 @@ st1 = Stack()
 st1.add(1)
 st1.add([2, 3, 5, 6])
 st1.pop()
+st1.checkTop()
 print(st1)
